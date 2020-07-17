@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="25.003" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="3" failures="0" errors="0" time="25.003" timestamp="2020-07-17 18:04:08" hostname="sona - hp" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sona\\Katalon Studio\\ApiDemo\\Reports\\20200717_180358\\TestSuite1\\20200717_180358"/>
+         <property name="logFiles" value="C:\\Users\\sona\\Katalon Studio\\ApiDemo\\Reports\\20200717_180358\\TestSuite1\\20200717_180358\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sona - hp"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+      </properties>
+      <testcase name="Test Cases/CreateUsers Test" time="16.484" classname="Test Cases/CreateUsers Test" status="PASSED">
+         <system-out><![CDATA[2020-07-17 18:04:09 - [TEST_CASE][PASSED] - Test Cases/CreateUsers Test: Test Cases/CreateUsers Test
+
+2020-07-17 18:04:11 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestServices/CreateUser")): Send request successfully
+
+2020-07-17 18:04:20 - [MESSAGE][INFO] - HAR: C:\Users\sona\Katalon Studio\ApiDemo\Reports\20200717_180358\TestSuite1\20200717_180358\requests\main\0.har
+
+2020-07-17 18:04:20 - [MESSAGE][PASSED] - Send request successfully
+
+2020-07-17 18:04:20 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("UserRestServices/CreateUser")): Send request and verify the response successfully
+
+2020-07-17 18:04:21 - [MESSAGE][INFO] - HAR: C:\Users\sona\Katalon Studio\ApiDemo\Reports\20200717_180358\TestSuite1\20200717_180358\requests\main\1.har
+
+2020-07-17 18:04:22 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-07-17 18:04:23 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-07-17 18:04:23 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-07-17 18:04:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2020-07-17 18:04:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-07-17 18:04:23 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2020-07-17 18:04:23 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-07-17 18:04:23 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-07-17 18:04:23 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestServices/UpdateUser")): Send request and verify the response successfully
+
+2020-07-17 18:04:24 - [MESSAGE][INFO] - HAR: C:\Users\sona\Katalon Studio\ApiDemo\Reports\20200717_180358\TestSuite1\20200717_180358\requests\main\2.har
+
+2020-07-17 18:04:24 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-07-17 18:04:25 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-07-17 18:04:25 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-07-17 18:04:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-07-17 18:04:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-07-17 18:04:25 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-07-17 18:04:25 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-07-17 18:04:25 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-07-17 18:04:25 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestServices/DeleteUser")): Send request and verify the response successfully
+
+2020-07-17 18:04:26 - [MESSAGE][INFO] - HAR: C:\Users\sona\Katalon Studio\ApiDemo\Reports\20200717_180358\TestSuite1\20200717_180358\requests\main\3.har
+
+2020-07-17 18:04:26 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-07-17 18:04:26 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-07-17 18:04:26 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-07-17 18:04:26 - [TEST_STEP][PASSED] - variables = request.getVariables(): null
+
+2020-07-17 18:04:26 - [TEST_STEP][PASSED] - variable = variables.get("yourVariableName"): null
+
+2020-07-17 18:04:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2020-07-17 18:04:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-07-17 18:04:26 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2020-07-17 18:04:26 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-07-17 18:04:26 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ListUserTest" time="3.305" classname="Test Cases/ListUserTest" status="PASSED">
+         <system-out><![CDATA[2020-07-17 18:04:26 - [TEST_CASE][PASSED] - Test Cases/ListUserTest: Test Cases/ListUserTest
+
+2020-07-17 18:04:27 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestServices/ListUsers")): Send request successfully
+
+2020-07-17 18:04:27 - [MESSAGE][INFO] - HAR: C:\Users\sona\Katalon Studio\ApiDemo\Reports\20200717_180358\TestSuite1\20200717_180358\requests\main\4.har
+
+2020-07-17 18:04:27 - [MESSAGE][PASSED] - Send request successfully
+
+2020-07-17 18:04:27 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("UserRestServices/ListUsers")): Send request and verify the response successfully
+
+2020-07-17 18:04:28 - [MESSAGE][INFO] - HAR: C:\Users\sona\Katalon Studio\ApiDemo\Reports\20200717_180358\TestSuite1\20200717_180358\requests\main\5.har
+
+2020-07-17 18:04:28 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-07-17 18:04:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "George"): Verify element property value successfully
+
+2020-07-17 18:04:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-07-17 18:04:29 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-07-17 18:04:29 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "George"): Verify element property value successfully
+
+2020-07-17 18:04:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+2020-07-17 18:04:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - getElementsCount(response, "data"): null
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data", 6): Verify element count successfully
+
+2020-07-17 18:04:29 - [MESSAGE][PASSED] - Verify element count successfully
+
+2020-07-17 18:04:29 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange(response, 150, 250): Verify response status code successfully
+
+2020-07-17 18:04:29 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/calculatorTest1/addition" time="2.921" classname="Test Cases/calculatorTest1/addition" status="PASSED">
+         <system-out><![CDATA[2020-07-17 18:04:29 - [TEST_CASE][PASSED] - Test Cases/calculatorTest1/addition: Test Cases/calculatorTest1/addition
+
+2020-07-17 18:04:30 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("calculatorTest/Addition1")): Send request and verify the response successfully
+
+2020-07-17 18:04:31 - [MESSAGE][INFO] - HAR: C:\Users\sona\Katalon Studio\ApiDemo\Reports\20200717_180358\TestSuite1\20200717_180358\requests\main\6.har
+
+2020-07-17 18:04:31 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-07-17 18:04:31 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-07-17 18:04:31 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-07-17 18:04:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-07-17 18:04:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-07-17 18:04:31 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-07-17 18:04:31 - [TEST_STEP][PASSED] - getResponseText()).contains("AddResult"): null
+
+2020-07-17 18:04:32 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-07-17 18:04:32 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-07-17 18:04:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("calculatorTest/Addition1")): Send request successfully
+
+2020-07-17 18:04:32 - [MESSAGE][INFO] - HAR: C:\Users\sona\Katalon Studio\ApiDemo\Reports\20200717_180358\TestSuite1\20200717_180358\requests\main\7.har
+
+2020-07-17 18:04:32 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-17 18:04:08 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/calculatorTest1/addition]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
